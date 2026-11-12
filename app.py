@@ -1,5 +1,5 @@
 import gradio as gr
-from summerizer import summarize_website
+from summerizer_langchain import summarize_website
 
 gr.Interface(
     fn=summarize_website,
